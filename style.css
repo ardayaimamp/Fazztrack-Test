@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body{
+ background-image: url("background.jpg");
+ background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.utama {
+  padding: 40px;
+}
+.atas {
+  display: flex;
+  position: relative;
+  margin: 0px 25px 0px 25px;
+/*  border : 5px solid grey;*/
+  height:44px;
+}
+
+.atas p {
+  font-family: "arial";
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  width:95%;
+  height:20px;
+/*  border : 5px solid yellow; */
+  margin: 10px 0px 10px 0px;
+ 
+}
+.atas img {
+  position: relative;
+  height: 35px;
+  margin: 5px;
+ /* width: 15%;
+/*  padding: 20px 0 px 20px 0px;*/
+/*  border : 5px solid blue;*/
+  
+}
+
+.tengah {
+  position: relative;
+ /* border : 5px solid green;*/
+  margin: 20px 25px 20px 25px;
+  
+}
+
+.aja {
+  border-bottom: 2px solid white;
+  margin : 40px 0 50px 0 ;
+}
+
+
+.bagian p {
+  text-align: center;
+  margin : 50px 50px 0 50px;
+  font-size : 30px;
+  font-family : "Rancho", arial;
+  padding : 10px;
+}
+.bagian1 {
+  color: #3131b4;
+  background-color: white;
+    text-align: left;
+    border-style: solid;
+    border-width: 1 px;
+    border-color: #f6a713;
+    border-radius: 5px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+  font-size : 25px;
+  font-family : "arial";
+
+}
+
+.bagian2 {
+color: #ff9f1a;
+background-color: white;
+    text-align: left;
+    border: 2px solid #3131b4;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+    padding-left: 35px;
+    font-size : 25px;
+  font-family : "arial";
+  margin-bottom:30px;
+}
+
+.tengah .daftar button{
+  background-color: #fa7000;
+  text-align: center;
+  text-decoration: none;
+  cursor : pointer;
+  border : none;
+  color : white;
+  height: 50px;
+  width: 100%;
+  font-size:20px;
+  
+  border-radius: 10px;
+}
+
+.CP{
+  color: white;
+  text-align:center;
+  font-size: 20px;
+}
